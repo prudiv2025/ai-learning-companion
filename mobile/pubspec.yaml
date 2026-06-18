@@ -1,0 +1,77 @@
+name: ai_learning_companion
+description: AI-Powered Personalized Learning Platform for School Students
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+
+  # Networking
+  dio: ^5.4.3
+  retrofit: ^4.1.0
+
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # UI
+  google_fonts: ^6.2.1
+  lottie: ^3.1.0
+  fl_chart: ^0.67.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  # Camera & Image
+  camera: ^0.10.5
+  image_picker: ^1.1.2
+  image_cropper: ^6.0.0
+
+  # Video
+  video_player: ^2.8.6
+  chewie: ^1.8.2
+  youtube_player_flutter: ^9.0.2
+
+  # Notifications
+  firebase_messaging: ^15.0.2
+  flutter_local_notifications: ^17.1.2
+
+  # AI Chat
+  flutter_markdown: ^0.6.21
+  dash_chat_2: ^0.0.21
+
+  # PDF
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  # Auth
+  jwt_decoder: ^2.0.1
+  google_sign_in: ^6.2.1
+
+  # Connectivity
+  connectivity_plus: ^6.0.2
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.9
+  retrofit_generator: ^8.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/fonts/
